@@ -1,0 +1,65 @@
+/*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+      
+}
+body{ 
+    background-repeat: no-repeat;
+    
+
+    background: rgba(9, 120, 232, 0.932);
+    height: 100%;
+    background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+    background: linear-gradient(45deg, #a18cd1, #fbc2eb);
+    background: linear-gradient(45deg, #fad0c4, #ffd1ff);
+    color: rgba(45, 45, 45, 0.632);    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    position: relative;
+    width: 30%;
+    height: 200px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(255,255,255,0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+}
+.card .content{
+    padding: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+.card .content h3{
+    font-size: 1.8em;
+    color: #fff;
+    z-index: 1;
+}
+.card .content p{
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+}
+.cutoff-text{
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+}
+h3{
+    margin-bottom: 0.25em;
+}
+.all-cards{
+    width: 100%;
+}
+/*
